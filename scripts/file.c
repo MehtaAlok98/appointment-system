@@ -3,11 +3,9 @@
 #include <fstream>
 #include <cstring>
 #include <sqlite3.h>
-#include "Student.h"
-#include "Lecturer.h"
-#include "Appointment.h"
-
-using namespace std;
+#include "core/Student.hpp"
+#include "core/Lecturer.hpp"
+#include "core/Appointment.hpp"
 
 // Global variable for array sizes
 int count[3];
