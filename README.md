@@ -26,6 +26,8 @@ This project uses Conan for dependency management. The required dependencies are
 ```txt
 [requires]
 sqlite3/3.41.2
+spdlog/1.8.5
+gtest/1.11.0
 
 [generators]
 CMakeDeps
